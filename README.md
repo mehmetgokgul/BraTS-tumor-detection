@@ -146,7 +146,7 @@ For radiological verification, the predicted segmentation masks are overlaid as 
 
 ## 8. Installation & Usage
 
-  
+   
 
 **1. Clone the repository and install dependencies:**
 
