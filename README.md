@@ -416,4 +416,4 @@ The 2D U-Net pipeline processes the preprocessed 3-channel MRI slices through tw
 3. If a segmentation file is uploaded, the model calculates a confusion matrix between its own prediction and the actual values. It prints values ​​such as the dice score and accuracy, calculated using the confusion matrix, to the screen. These values ​​are calculated separately for each layer and change as you move between layers.
 <img  src="images/LayersValue.png"  width="200"/>
 4. Then, the alternative model to be used is selected, and patient files are re-evaluated according to this model.
-<img  src="images/UIFull.png"  width="500"/>
+<img  src="images/UIFull.png"  width="600"/>
