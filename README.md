@@ -410,7 +410,7 @@ The 2D U-Net pipeline processes the preprocessed 3-channel MRI slices through tw
 
 
 1. The architecture to be tested is selected in the interface. A model is created in the selected architecture with empty weights. Then, the previously saved model weights are transferred to this model.
-<img  src="images/ModelSelect.png"  width="200"/>
+<img  src="images/ModelSelect .png"  width="200"/>
 2. The patient's files to be tested are uploaded to the system (t2f, t1n, t1c, t2w). A segmentation file can also be uploaded optionally.
 <img  src="images/PatientFiles.png"  width="200"/>
 3. If a segmentation file is uploaded, the model calculates a confusion matrix between its own prediction and the actual values. It prints values ​​such as the dice score and accuracy, calculated using the confusion matrix, to the screen. These values ​​are calculated separately for each layer and change as you move between layers.
